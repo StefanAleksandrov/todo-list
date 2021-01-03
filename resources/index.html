@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>VueJS - ToDo List</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <button>Add</button>
+    <button>ToDo</button>
+    <button>Complete</button>
+
+    <p>
+      <label for="new-task">Add Item</label>
+      <input id="new-task" type="text" />
+      <button>Add</button>
+    </p>
+
+    <h3>Completed</h3>
+    <ul id="completed-tasks">
+      <li>
+        <label>Go to Gym</label>
+        <button class="restore">Restore</button>
+        <button class="delete">Delete</button>
+      </li>
+      <li>
+        <label>Go to Store</label>
+        <button class="restore">Restore</button>
+        <button class="delete">Delete</button>
+      </li>
+    </ul>
+
+    <h3>Todo</h3>
+    <ul id="incomplete-tasks">
+      <li>
+        <label>Feed the Cat</label>
+        <button class="complete">Complete</button>
+        <button class="delete">Delete</button>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
